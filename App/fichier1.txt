@@ -1,5 +1,0 @@
-git checkout main
-git pull origin main --allow-unrelated-histories
-git add .
-git commit -m "Résolution des conflits"
-git push origin main
