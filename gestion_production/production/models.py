@@ -1,8 +1,5 @@
 from django.db import models
 
-<<<<<<< HEAD
-# Create your models here.
-=======
 
 class Fournisseur(models.Model):
     idFournisseur = models.AutoField(primary_key=True)
@@ -147,4 +144,3 @@ class Consommation(models.Model):
 
     class Meta:
         db_table = 'Consommation'
->>>>>>> 51a7fb753dfb0ea1e034714bb32ada3689ffb780

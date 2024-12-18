@@ -1,3 +1,5 @@
+# production/views.py
 from django.shortcuts import render
 
-# Create your views here.
+def home(request):
+    return render(request, 'production/dashboard.html')  # Assurez-vous que le template existe
